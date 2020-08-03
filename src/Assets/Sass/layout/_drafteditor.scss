@@ -1,0 +1,33 @@
+.notranslate{
+&.public-DraftEditor-content{
+    padding: 16px;
+    min-height: 500px;
+}
+}
+.DraftEditor-root{
+    @extend .border
+}
+
+   
+    .editor-button{
+        border-radius: 0;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+    }
+
+.editor-container{
+    padding: 16px;
+}
+
+.editor-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black
+
+}
+
+.editor-link-creator{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
